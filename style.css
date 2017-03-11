@@ -1,6 +1,135 @@
-.header{
-    width: 100%;
-    height: 60px;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.content {
+    margin: 0 70px;
+    background: url('tm-sigma-00.jpg') no-repeat center center fixed;
+}
+
+header {
     background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.header {
+    width: 100%;
     border-bottom: 1px solid #ccc;
+}
+
+.header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 0 30px;
+}
+
+.header .logo .logo__text {
+    display: block;
+    font-size: 1.8em;
+}
+
+.header .logo .logo__description {
+    display: block;
+    font-size: 1em;
+    margin-top: 10px;
+    color: #888;
+}
+
+.header .menu {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+.header .menu ul {
+    margin-top: 15px;
+}
+
+.header .menu ul li {
+    margin: 10px;
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.header .menu ul li:hover a {
+    color: #555;
+}
+
+.welcome {
+    text-align: center;    
+}
+
+.welcome .welcome-text {
+    padding: 150px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.welcome .welcome-text .welcome-text__theme{
+    font-size: 3em;
+    
+}
+
+.welcome .welcome-text .welcome-text__description{
+    font-size: 1.8em;
+    margin-top: 15px;
+    color: #555;
+    line-height: 2em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.welcome .welcome-text .welcome-text__button {
+    font-size: 1.8em;
+    color: white;
+    padding: 17px 40px;    
+    margin: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.welcome .welcome-text .welcome-text__button:hover {
+    filter: brightness(85%);
+}
+
+.welcome .welcome-text .welcome-text__button.welcome-text__button_red{
+    background-color: red;
+}
+.welcome .welcome-text .welcome-text__button.welcome-text__button_green{
+    background-color: green;
+}
+
+.welcome .welcome-tiles{
+    width: 100%;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile{
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_white{
+    background-color: #E4E8E8;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_light-grey{
+    background-color: #999;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_grey{
+    background-color: #666;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_dark-grey{
+    background-color: #444;
 }
