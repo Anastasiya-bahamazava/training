@@ -102,24 +102,40 @@ header {
 }
 
 .welcome .welcome-text .welcome-text__button.welcome-text__button_red{
-    background-color: red;
+    background-color: #d9534f;
 }
 .welcome .welcome-text .welcome-text__button.welcome-text__button_green{
-    background-color: green;
+    background-color: #449d44;
 }
 
 .welcome .welcome-tiles{
-    width: 100%;
+    width: 100%;    
 }
 
 .welcome .welcome-tiles .welcome-tiles__tile{
     display: inline-block;
     width: 25%;
+    box-sizing: border-box;
     float: left;
+    color: #fff;
+    padding: 60px 40px;    
+    border-right: 1px solid #fff;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile__title{
+    font-size: 2.2em;
+    margin-top: 15px;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile__description{
+    font-size: 1.3em;
+    margin-top: 20px;
+    line-height: 2em;
 }
 
 .welcome .welcome-tiles .welcome-tiles__tile_white{
     background-color: #E4E8E8;
+    color: #373a3c;
 }
 
 .welcome .welcome-tiles .welcome-tiles__tile_light-grey{
