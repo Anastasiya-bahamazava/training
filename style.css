@@ -1,151 +1,199 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .content {
-    margin: 0 70px;
-    background: url('tm-sigma-00.jpg') no-repeat center center fixed;
+  margin: 0 70px;
+  background: url('tm-sigma-00.jpg') no-repeat center center fixed;
 }
 
 header {
-    background-color: #fff;
-    padding-bottom: 15px;
+  background-color: #fff;
+  padding-bottom: 15px;
 }
 
 .header {
-    width: 100%;
-    border-bottom: 1px solid #ccc;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
 }
 
 .header .logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 15px 0 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px 0 30px;
 }
 
 .header .logo .logo__text {
-    display: block;
-    font-size: 1.8em;
+  display: block;
+  font-size: 1.8em;
 }
 
 .header .logo .logo__description {
-    display: block;
-    font-size: 1em;
-    margin-top: 10px;
-    color: #888;
+  display: block;
+  font-size: 1em;
+  margin-top: 10px;
+  color: #888;
 }
 
 .header .menu {
-    display: inline-block;
-    float: right;
-    margin-top: 15px;
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
 }
 
 .header .menu ul {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .header .menu ul li {
-    margin: 10px;
-    display: inline-block;
+  margin: 10px;
+  display: inline-block;
 }
 
 .header .menu ul li a {
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #aaa;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #aaa;
 }
 
 .header .menu ul li:hover a {
-    color: #555;
+  color: #555;
 }
 
 .welcome {
-    text-align: center;    
+  text-align: center;
 }
 
 .welcome .welcome-text {
-    padding: 150px 0;
-    width: 50%;
-    margin: 0 auto;
+  padding: 150px 0;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.welcome .welcome-text .welcome-text__theme{
-    font-size: 3em;
-    
+.welcome .welcome-text .welcome-text__theme {
+  font-size: 3em;
 }
 
-.welcome .welcome-text .welcome-text__description{
-    font-size: 1.8em;
-    margin-top: 15px;
-    color: #555;
-    line-height: 2em;
-    padding: 5px;
-    margin-bottom: 20px;
+.welcome .welcome-text .welcome-text__description {
+  font-size: 1.8em;
+  margin-top: 15px;
+  color: #555;
+  line-height: 2em;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .welcome .welcome-text .welcome-text__button {
-    font-size: 1.8em;
-    color: white;
-    padding: 17px 40px;    
-    margin: 15px;
-    border-radius: 5px;
-    text-decoration: none;
+  font-size: 1.8em;
+  color: white;
+  padding: 17px 40px;
+  margin: 15px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .welcome .welcome-text .welcome-text__button:hover {
-    filter: brightness(85%);
+  filter: brightness(85%);
 }
 
-.welcome .welcome-text .welcome-text__button.welcome-text__button_red{
-    background-color: #d9534f;
-}
-.welcome .welcome-text .welcome-text__button.welcome-text__button_green{
-    background-color: #449d44;
+.welcome .welcome-text .welcome-text__button.welcome-text__button_red {
+  background-color: #d9534f;
 }
 
-.welcome .welcome-tiles{
-    width: 100%;    
+.welcome .welcome-text .welcome-text__button.welcome-text__button_green {
+  background-color: #449d44;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile{
-    display: inline-block;
-    width: 25%;
-    box-sizing: border-box;
-    float: left;
-    color: #fff;
-    padding: 60px 40px;    
-    border-right: 1px solid #fff;
+.welcome .welcome-tiles {
+  width: 100%;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile__title{
-    font-size: 2.2em;
-    margin-top: 15px;
+.welcome .welcome-tiles:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile__description{
-    font-size: 1.3em;
-    margin-top: 20px;
-    line-height: 2em;
+.welcome .welcome-tiles .welcome-tiles__tile {
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  padding: 60px 40px;
+  border-right: 1px solid #fff;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile_white{
-    background-color: #E4E8E8;
-    color: #373a3c;
+.welcome .welcome-tiles .welcome-tiles__tile__title {
+  font-size: 2.2em;
+  margin-top: 15px;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile_light-grey{
-    background-color: #999;
+.welcome .welcome-tiles .welcome-tiles__tile__description {
+  font-size: 1.3em;
+  margin-top: 20px;
+  line-height: 2em;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile_grey{
-    background-color: #666;
+.welcome .welcome-tiles .welcome-tiles__tile_white {
+  background-color: #E4E8E8;
+  color: #373a3c;
 }
 
-.welcome .welcome-tiles .welcome-tiles__tile_dark-grey{
-    background-color: #444;
+.welcome .welcome-tiles .welcome-tiles__tile_light-grey {
+  background-color: #999;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_grey {
+  background-color: #666;
+}
+
+.welcome .welcome-tiles .welcome-tiles__tile_dark-grey {
+  background-color: #444;
+}
+
+.gallery .gallery-row {
+  display: flex;
+  width: 100%;
+}
+
+.gallery .gallery-row .gallery-row__image {
+  background-color: #aaaaaa;
+  min-height: 100px;
+}
+
+.gallery .gallery-row .gallery-row__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.col {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.col-1-1 {
+  width: 100%;
+  display: block;
+}
+
+.col-1-3 {
+  width: 33.333%;
+}
+
+.col-2-3 {
+  width: 66.666%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-4 {
+  width: 25%;
 }
