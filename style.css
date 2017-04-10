@@ -276,3 +276,25 @@
     margin-top: 20px;
     line-height: 1.6em;
   }
+.info .info-tile__button{
+     font-size: 1.8em;
+    color: white;
+    padding: 17px 40px;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.info .info-tile__button.info-tile__button-blue{
+   background-color: #0275d8;
+}
+.info .info-tile__button.info-tile__button-blue:hover{
+   background-color: #025aa5;
+}
+.info .info-tile__button.info-tile__button-pink{
+   background-color: #d9534f;
+}
+
+.info .info-tile__button.info-tile__button-pink:hover{
+   background-color: #c9302c;
+}
